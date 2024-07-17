@@ -1,0 +1,142 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* ///////////////////// for common nav bar /////////////////////////// */
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding:  9px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    /*  neww */
+    position: fixed;
+    z-index: 9999;
+     
+}
+  
+nav .logo{
+    width: 70px;
+}
+ 
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 0%;
+
+}
+/* ///////////////////////////////////////////////////////////////////// */
+
+body{
+    background: #161616;
+    color: #333;
+}
+.search-box{
+    width: 600px;
+    background: rgb(255, 255, 255);
+    margin: 80px auto 0;
+    border-radius: 5px;
+    margin-top: 110px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+}
+button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+button .fa-solid{
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #555;
+}
+.result-box ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.result-box ul li:hover{
+    background: #e9f3ff;
+}
+.result-box{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+
+
+
+/* ///////// */
+.lab{
+    
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    align-items : center;
+    margin-left: 29%;
+    margin-top: 20%;
+    position: absolute;
+}
+.see{
+    font-size: 110px;
+    color: #fff;
+    font-weight: 600;
+    align-items : center;
+    margin-left: 7%;
+    margin-top: 30px;
+    position: relative;
+}
+.web{
+    font-size: 110px;
+    color: #fff;
+    font-weight: 600;
+    align-items : center;
+    margin-left: 7%;
+    margin-top: 0px;
+    position: relative;
+}
+.aam{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    align-items : center;
+    margin-left: 7%;
+    margin-top: 200px;
+    position: relative;
+
+}
